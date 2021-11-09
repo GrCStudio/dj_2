@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul style="color: black; font-size: 24px">
+    # Ответ
+    {% for dish, num in data.items %}
+    <li>{{ dish }}:  {{num}}</li>
+    {% endfor %}
+</body>
+</html>
